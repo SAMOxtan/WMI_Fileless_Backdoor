@@ -9,15 +9,24 @@ WMI类是WMI的主要结构。WMI类中可以包含方法（代码）以及属�
 
 ## 0x01 环境&工具
 目标端：WIN7、WMI Tool
+
 服务端：WIN10、Python3
+
 WMI相关工具可查看Black Hat 2015的报告
 
 ## 0x02 文件简介
 evil3.vbs -- 恶意VBS脚本。创建事件过滤器，捕获账户成功登陆的事件；创建活动脚本事件消费者，捕获到事件后执行远程脚本pnc.js;绑定过滤器和消费者。
+
 pnc.js -- 服务端恶意脚本。下载powercat.ps1，并使用其返回shell。
+
 shell_server.py -- 服务端监听shell的脚本。
+
 powercat.ps1 -- powershell版netcat。(https://github.com/besimorhino/powercat)
+
 clean.ps1 -- 清除evil3.vbs创建的过滤器、消费者、绑定器。
+
+## 0x03 视频演示
+
 
 # Reference
 [wmi与vbs](https://xz.aliyun.com/t/2080)
