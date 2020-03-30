@@ -26,7 +26,7 @@ powercat.ps1 -- powershell版netcat。(https://github.com/besimorhino/powercat)
 clean.ps1 -- 清除evil3.vbs创建的过滤器、消费者、绑定器。
 
 ## 0x03 视频演示
-暂未过审
+<iframe src="//player.bilibili.com/player.html?aid=99301567&bvid=BV1q741117Wm&cid=169583009&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 # Reference
 [wmi与vbs](https://xz.aliyun.com/t/2080)
